@@ -185,7 +185,7 @@ Install the following:
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ayushkrdubey-23/Network-IDS-Simulation.git
 cd Network-IDS-Simulation
 ```
 
@@ -380,6 +380,7 @@ GitHub: [ayushkrdubey-23](https://github.com/ayushkrdubey-23)
 ## License
 
 A license has not yet been specified. Add a suitable `LICENSE` file before presenting this repository as an open-source project.
+
 
 
 
