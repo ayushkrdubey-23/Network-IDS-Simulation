@@ -1,0 +1,65 @@
+
+{
+  "rules": [
+    {
+      "rule_id": "SIG001",
+      "name": "High Connection Rate",
+      "description": "Detects unusually high connection counts.",
+      "field": "connection_count",
+      "operator": "greater_than",
+      "threshold": 75,
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "SIG002",
+      "name": "Repeated Failed Connections",
+      "description": "Detects a high rate of failed connections.",
+      "field": "failed_connection_rate",
+      "operator": "greater_than",
+      "threshold": 0.5,
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "SIG003",
+      "name": "Unusual Destination Port",
+      "description": "Detects connections to configured unusual ports.",
+      "field": "destination_port",
+      "operator": "in",
+      "threshold": [4444, 5555, 8081, 9001, 10000],
+      "severity": "MEDIUM",
+      "enabled": true
+    },
+    {
+      "rule_id": "SIG004",
+      "name": "High SYN Ratio",
+      "description": "Detects unusually high SYN packet ratios.",
+      "field": "syn_ratio",
+      "operator": "greater_than",
+      "threshold": 0.5,
+      "severity": "HIGH",
+      "enabled": true
+    },
+    {
+      "rule_id": "SIG005",
+      "name": "High Traffic Volume",
+      "description": "Detects unusually large byte counts.",
+      "field": "byte_count",
+      "operator": "greater_than",
+      "threshold": 1000000,
+      "severity": "MEDIUM",
+      "enabled": true
+    },
+    {
+      "rule_id": "SIG006",
+      "name": "High Packet Rate",
+      "description": "Detects unusually high packet transmission rates.",
+      "field": "packets_per_second",
+      "operator": "greater_than",
+      "threshold": 500,
+      "severity": "MEDIUM",
+      "enabled": true
+    }
+  ]
+}

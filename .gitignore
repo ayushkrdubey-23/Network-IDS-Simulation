@@ -1,0 +1,49 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Trained model binaries (regenerate using ml/train_models.py)
+*.joblib
+*.pkl
+
+# Frontend dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
