@@ -1,4 +1,4 @@
-# Network Intrusion Detection System (IDS) Simulation
+﻿# Network Intrusion Detection System (IDS) Simulation
 
 A defensive, machine-learning-assisted Network Intrusion Detection System simulation that analyzes synthetic network traffic, identifies suspicious activity, calculates risk scores, and manages security alerts through a React-based Security Operations Center (SOC) dashboard.
 
@@ -36,10 +36,10 @@ The system uses:
 
 | Risk Level | Risk Score |
 | ---------- | ---------: |
-| INFO       |       0–24 |
-| LOW        |      25–49 |
-| MEDIUM     |      50–74 |
-| HIGH       |     75–100 |
+| INFO       |       0â€“24 |
+| LOW        |      25â€“49 |
+| MEDIUM     |      50â€“74 |
+| HIGH       |     75â€“100 |
 
 ### Alert and Incident Management
 
@@ -119,56 +119,56 @@ The system uses:
 
 ```text
 Network-IDS-Simulation/
-│
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   └── utils/
-│
-├── data/
-│
-├── docs/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── ids/
-│   ├── feature_extractor.py
-│   ├── signature_engine.py
-│   ├── signature_rules.json
-│   ├── anomaly_detector.py
-│   └── hybrid_engine.py
-│
-├── ml/
-│   └── train_models.py
-│
-├── models/
-│
-├── reports/
-│   └── ml_evaluation.json
-│
-├── screenshots/
-│
-├── simulator/
-│   └── generate_dataset.py
-│
-├── tests/
-│   ├── conftest.py
-│   ├── test_alert_service.py
-│   ├── test_anomaly_detector.py
-│   ├── test_api.py
-│   ├── test_feature_extractor.py
-│   ├── test_hybrid_engine.py
-│   └── test_signature_engine.py
-│
-├── .gitignore
-├── .env.example
-├── README.md
-├── requirements.txt
-└── verify_database.py
+â”‚
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ models/
+â”‚   â”œâ”€â”€ routes/
+â”‚   â”œâ”€â”€ services/
+â”‚   â””â”€â”€ utils/
+â”‚
+â”œâ”€â”€ data/
+â”‚
+â”œâ”€â”€ docs/
+â”‚
+â”œâ”€â”€ frontend/
+â”‚   â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ public/
+â”‚   â””â”€â”€ package.json
+â”‚
+â”œâ”€â”€ ids/
+â”‚   â”œâ”€â”€ feature_extractor.py
+â”‚   â”œâ”€â”€ signature_engine.py
+â”‚   â”œâ”€â”€ signature_rules.json
+â”‚   â”œâ”€â”€ anomaly_detector.py
+â”‚   â””â”€â”€ hybrid_engine.py
+â”‚
+â”œâ”€â”€ ml/
+â”‚   â””â”€â”€ train_models.py
+â”‚
+â”œâ”€â”€ models/
+â”‚
+â”œâ”€â”€ reports/
+â”‚   â””â”€â”€ ml_evaluation.json
+â”‚
+â”œâ”€â”€ screenshots/
+â”‚
+â”œâ”€â”€ simulator/
+â”‚   â””â”€â”€ generate_dataset.py
+â”‚
+â”œâ”€â”€ tests/
+â”‚   â”œâ”€â”€ conftest.py
+â”‚   â”œâ”€â”€ test_alert_service.py
+â”‚   â”œâ”€â”€ test_anomaly_detector.py
+â”‚   â”œâ”€â”€ test_api.py
+â”‚   â”œâ”€â”€ test_feature_extractor.py
+â”‚   â”œâ”€â”€ test_hybrid_engine.py
+â”‚   â””â”€â”€ test_signature_engine.py
+â”‚
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ .env.example
+â”œâ”€â”€ README.md
+â”œâ”€â”€ requirements.txt
+â””â”€â”€ verify_database.py
 ```
 
 ## Installation and Setup
@@ -326,21 +326,29 @@ These results reflect the project's verification run on October 3, 2026.
 
 ## Screenshots
 
-Screenshots of the SOC dashboard and its features can be added to the `screenshots/` directory.
+### 01_Swagger_UI
 
-Suggested screenshots:
+![01_Swagger_UI](./screenshots/01_Swagger_UI.png)
 
-* Dashboard overview
-* Security alert listing
-* Alert filtering
-* Alert investigation and status update
-* Incident management
-* Incident and alert linking
-* API documentation
-* Risk analytics
+### 02_Metrics & Risk_Distribution
 
-Once screenshots are added, reference them here using their actual filenames.
+![02_Metrics & Risk_Distribution](./screenshots/02_Metrics%20%26%20Risk_Distribution.png)
 
+### 03_Recent_Alerts_Table_View
+
+![03_Recent_Alerts_Table_View](./screenshots/03_Recent_Alerts_Table_View.png)
+
+### 04_Create_Incident_Modal
+
+![04_Create_Incident_Modal](./screenshots/04_Create_Incident_Modal.png)
+
+### 05_Security_Monitoring_Center_Full_Alerts_Management_View
+
+![05_Security_Monitoring_Center_Full_Alerts_Management_View](./screenshots/05_Security_Monitoring_Center_Full_Alerts_Management_View.png)
+
+### 06_Security_Operations
+
+![06_Security_Operations](./screenshots/06_Security_Operations.png)
 ## Defensive Simulation and Safety
 
 This project is designed for educational and defensive cybersecurity learning.
@@ -372,4 +380,6 @@ GitHub: [ayushkrdubey-23](https://github.com/ayushkrdubey-23)
 ## License
 
 A license has not yet been specified. Add a suitable `LICENSE` file before presenting this repository as an open-source project.
+
+
 
