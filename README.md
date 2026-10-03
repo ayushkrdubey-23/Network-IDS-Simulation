@@ -189,7 +189,7 @@ git clone https://github.com/ayushkrdubey-23/Network-IDS-Simulation.git
 cd Network-IDS-Simulation
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+Clone the repository using the command above.
 
 ### 2. Create a Python virtual environment
 
@@ -380,6 +380,7 @@ GitHub: [ayushkrdubey-23](https://github.com/ayushkrdubey-23)
 ## License
 
 A license has not yet been specified. Add a suitable `LICENSE` file before presenting this repository as an open-source project.
+
 
 
 
